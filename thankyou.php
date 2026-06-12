@@ -53,7 +53,7 @@ mail($to, $subject, $message, $headers);
       </div>
       <div class="contact-tab-mail">
         <img src="./Icons/mail.svg" alt="mail-icon" class="mail-icon" />:
-        mamachagaon@maitreyagroup.com
+        amit.s@nisargpalash.in
       </div>
     </div>
     <div class="Container2-navbar">
@@ -133,8 +133,7 @@ mail($to, $subject, $message, $headers);
           <div class="con11-sec2-addrss-text">
             <strong>Resort Address</strong>
             <p>
-              Village Gundale, Near Godavari Stone Crusher, Karvela Pada, Boisar
-              (E).
+              Nisarg Palash Resort, Bashwat pada, Nandore, Palghar Manor Road, Palghar East 401405.
             </p>
           </div>
         </div>
@@ -143,7 +142,7 @@ mail($to, $subject, $message, $headers);
             <img src="./Icons/container11-icons/mail.svg" alt="" />
           </div>
           <div class="con11-sec2-emailadress">
-            <span>mamachagaon@maitreyagroup.com </span>
+            <span>amit.s@nisargpalash.in </span>
           </div>
         </div>
         <div class="con11-sec2-contact">
@@ -151,7 +150,7 @@ mail($to, $subject, $message, $headers);
             <img src="./Icons/container11-icons/contact.svg" alt="" />
           </div>
           <div class="con11-sec2-contact-number">
-            <span>9619878500, 9619878400, 8007424123, 9167995472</span>
+            <span>7039711373, 9619878500</span>
           </div>
         </div>
       </div>
