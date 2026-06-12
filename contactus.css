@@ -1,0 +1,832 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ************** sticky icons ****************/
+.sticky-icons {
+  position: relative;
+}
+.sticky-wtsap {
+  position: fixed;
+  bottom: 1rem;
+  right: 0.5rem;
+  z-index: 100;
+}
+.image-slider,
+.con11-Footer,
+.con12-copyright,
+.copyright,
+.con3-carousel,
+.navbar {
+  z-index: 3000;
+}
+/* ***************************** container 1 booking tab ************************************ */
+.Container1-booking-tab {
+  height: 40px;
+  color: #ffffff;
+  background-color: #28292b;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 2rem;
+}
+.phone-icon {
+  padding-right: 0.7rem;
+  color: #fff;
+}
+.mail-icon {
+  /* height: 1rem; */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #fff;
+}
+@media only screen and (max-width: 950px) {
+  .Container1-booking-tab {
+    padding-right: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    padding-right: 0rem;
+    width: 100vw;
+  }
+  .contact-tab-phone {
+    /* padding-left: -2rem; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0.7rem;
+  }
+  .contact-tab-phone span {
+    padding-left: 0.7rem;
+  }
+  .contact-tab-mail {
+    /* padding-left: -2rem; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 0.5rem;
+  }
+  .mail-icon {
+    padding-left: 0;
+    height: 1.8rem;
+    padding-bottom: 0rem;
+  }
+}
+/* ************************************ container 2 NavBar ******************************************** */
+.Navbar-Logo {
+  height: 70px;
+  width: 150px;
+  padding-left: 1rem;
+}
+
+.navbar {
+  background-color: #198754;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: sans-serif poppins;
+  padding: 0;
+  position: sticky;
+  top: 0;
+}
+
+.navbar-nav {
+  padding-left: 13rem;
+}
+
+.navbar-nav li {
+  padding-left: 2.5rem;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 950px) {
+  .navbar-nav {
+    padding-left: 0rem;
+    text-align: center;
+    height: 100vh;
+    /* position: fixed; */
+    overflow: hidden;
+  }
+  .navbar-nav li {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+/* **************************** container 11 footer *************************************** */
+.con11-Footer {
+  margin: 3rem 0rem 0rem 0rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  background-color: #28292b;
+  /* height: 60vh; */
+}
+
+.con11-section1 {
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 33%;
+  margin-right: 0rem;
+  /* position: absolute; */
+  /* left: 0; */
+  /* background-color: #28292b; */
+  color: #ffffff;
+}
+.con11-section2 {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 33%;
+  margin-top: 2rem;
+  /* position: absolute; */
+  /* background-color: #28292b; */
+  color: #ffffff;
+}
+.con11-section3 {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 33%;
+  margin-top: 2rem;
+  /* position: absolute; */
+  /* right: 0; */
+  /* background-color: #28292b; */
+  color: #ffffff;
+}
+
+.con11-logo {
+  /* width: 450px; */
+  /* height: 52px; */
+}
+/* ***************** Footer section 2 ************* */
+.con11-sec2-address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 400px;
+  margin-top: 2.5rem;
+}
+.con11-sec2-heading {
+  /* display: flex; */
+  /* align-items: flex-start; */
+  /* justify-content: flex-start; */
+  text-align: start;
+  width: 290px;
+}
+.con11-sec2-addrss-icon img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 1rem;
+}
+.con11-sec2-addrss-text {
+  padding: 0rem 1rem 0rem 1rem;
+}
+.con11-sec2-email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 400px;
+  margin-top: 1rem;
+}
+.con11-sec2-contact {
+  width: 400px;
+  margin-top: 2rem;
+}
+.con11-sec2-emailadress {
+  padding: 0.5rem 1rem 0rem 1rem;
+}
+.con11sec2-email-icon img {
+  width: 30px;
+  height: 30px;
+}
+.con11-sec2-contact-icon img {
+  width: 25px;
+  height: 25px;
+}
+.con11-sec2-contact-number {
+  padding: 0.5rem 1rem 0rem 1rem;
+}
+
+.con11-sec2-contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* ********** Section 3 ******* **********************/
+.con11-sec3-heading {
+  /* text-align: start; */
+  /* width: 230px; */
+}
+.con11-sec3-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 2rem; */
+  width: 400px;
+}
+.con11-sec3-links-container1 {
+  padding-right: 1rem;
+}
+.con11-sec3-links-container1 ul li {
+  padding-top: 1.5rem;
+  list-style: none;
+}
+.con11-sec3-links-container1 ul li a,
+.con11-sec3-links-container2 ul li a {
+  text-decoration: none;
+
+  color: #ffffff;
+}
+.con11-sec3-links-container2 {
+  padding-left: 1rem;
+}
+.con11-sec3-links-container2 ul li {
+  padding-top: 1.5rem;
+  list-style: none;
+}
+
+/* ****************** social media *********** */
+
+.con11-sec3-social-icons {
+  /* margin-top: 1.5rem; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.con11-sec3-socialmedia {
+  margin-top: 1.5rem;
+}
+.con11-sec3-socialmedia-heading {
+  padding-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.con11-fb-icon {
+  width: 29px;
+  height: 29px;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+}
+.con11-insta-icon {
+  width: 27px;
+  height: 27px;
+  margin-right: 1rem;
+}
+.con11-tweet-icon {
+  width: 29px;
+  height: 29px;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 950px) {
+  .con11-Footer {
+    margin: 3rem 0rem 0rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #28292b;
+    /* height: 60vh; */
+  }
+  .con11-section1 {
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0rem;
+    /* position: absolute; */
+    /* left: 0; */
+    /* background-color: #28292b; */
+    color: #ffffff;
+  }
+  .con11-section2 {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+    /* position: absolute; */
+    /* background-color: #28292b; */
+    color: #ffffff;
+  }
+  .con11-sec2-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2.5rem;
+  }
+  .con11-sec2-email {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .con11-sec2-contact {
+    width: 100%;
+  }
+  .con11-section3 {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    /* position: absolute; */
+    /* right: 0; */
+    /* background-color: #28292b; */
+    color: #ffffff;
+  }
+  .con11-sec3-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+    width: 100%;
+  }
+  .con11-sec2-heading {
+    /* display: flex; */
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+    text-align: center;
+    width: 100%;
+  }
+  .con11-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+}
+/* *************************************** container 12 ***************************** */
+.con12-copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #ffffff;
+  height: 4rem;
+  border-top: 2px solid #e9edc9;
+  position: relative;
+}
+
+.con12-copyright a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 950px) {
+  .con12-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: #ffffff;
+    height: 4rem;
+  }
+}
+
+/* ********************************** container 3 ************************ */
+.con3-header {
+  /* background-color: #; */
+}
+.con3-header h1 {
+  font-size: 3.5rem;
+  color: #d9d9d9;
+  font-weight: 900;
+  padding: 5rem;
+}
+
+.con3-carousel {
+  background-image: url("./Photo/Contactus/normal-array/contatcus/con1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  transition: 0.3s;
+}
+.container3-tariff {
+  position: relative;
+}
+.con3-header {
+  background: linear-gradient(rgba(0, 0, 0, 0) #000);
+  position: absolute;
+  top: 13rem;
+  left: 10;
+  width: 100%;
+  padding: 4em 1em 2em 1em;
+  text-align: start;
+}
+
+.leftArrow {
+  width: 15px;
+  height: 15px;
+}
+.rightArrow {
+  width: 15px;
+  height: 15px;
+}
+.leftArrow,
+.rightArrow {
+  height: 2em;
+  width: 2em;
+  background-color: #fff;
+  padding: 0.5rem;
+  position: absolute;
+  top: 40%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.leftArrow:hover,
+.rightArrow:hover {
+  background: #a1c5a7;
+  color: #198754;
+}
+.leftArrow {
+  left: 1em;
+}
+.rightArrow {
+  right: 1em;
+}
+
+/*  class for javascript toggle */
+.image-fade {
+  animation: imgFade 0.5s ease-in-out;
+}
+
+@keyframes imgFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .con3-carousel {
+    height: 50vh;
+    background-image: url("./Photo/Contactus/normal-array/contatcus/con9.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    transition: 0.3s;
+  }
+}
+/* ******************************* container 4*************************** */
+
+.container4-contact-us {
+  margin: 3rem 5rem;
+  background: #198754;
+  padding: 1rem;
+}
+.con4-Heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.con4-Heading h1 {
+  font-weight: 700;
+}
+.booknow {
+  margin: 4rem 0rem 1rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.booknow a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+}
+.booknow a:hover {
+  /* color: #fff; */
+}
+
+.con4-Heading h1 {
+  color: #fff;
+}
+.form-addrs-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contact-address {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 35%;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+.resort-address,
+.office-address {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 2rem;
+  gap: 1rem;
+  color: #fff;
+}
+.contactus-mail,
+.contactus-phone-no {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* background-color: tomato; */
+  /* padding-top: 2rem; */
+  /* gap: 1rem; */
+}
+.contactUs-mail-logo img {
+  width: 21px;
+}
+
+.mail-main-container,
+.contact-us-phone-main-container {
+  display: flex;
+  flex-direction: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+.contactus-mail-container,
+.contactus-phone-no {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* gap: 1rem; */
+  flex-direction: column;
+  color: #fff;
+}
+
+.contactus-phone-no {
+  height: 3rem;
+  color: #fff;
+}
+
+.form-addrs-container {
+  padding-top: 2rem;
+}
+
+/* ****** form  */
+.form-firstrow,
+.form-secondrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.enquiry-heading h3 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+.form-rows-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.form-secondrow {
+  margin-top: 1rem;
+}
+
+.form-name input,
+.form-email input,
+.form-phone input,
+.form-subject input {
+  width: 20rem;
+  height: 3rem;
+  padding: 0px 10px;
+}
+
+.form-textarea {
+  margin-top: 1rem;
+  width: 0rem;
+}
+
+.form-submit {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.form-submit button {
+  padding: 10px 40px;
+  color: #fff;
+  background-color: #f7b801;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+  box-shadow: 0px 1px 5px 3px rgb(0, 0, 0, 0.3);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.form-submit a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.form-submit-btn {
+  padding: 10px 40px;
+  box-shadow: rgba(0, 0, 0, 0.3);
+}
+
+.form-textarea textarea {
+  padding: 10px 15px 0px 15px;
+  width: 41rem;
+}
+.form--error-message {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  height: 1rem;
+}
+.contact-form {
+  /* background-color: #d9d9d9; */
+  /* padding: 1rem; */
+}
+
+@media only screen and (max-width: 950px) {
+  .container4-contact-us {
+    margin: 3rem 1rem;
+    /* background-color: #198754; */
+    padding: 1rem;
+    /* background-color: #d9d9d9; */
+  }
+  .resort-address,
+  .office-address {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem 0rem;
+
+    flex-direction: column;
+    gap: 1rem;
+    color: #fff;
+  }
+  .form-addrs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: content;
+    margin-top: 5rem;
+  }
+  .enquiry-form-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+  .form-firstrow,
+  .form-secondrow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .form-textarea textarea {
+    /* column-span: auto; */
+    width: 20rem;
+    height: auto;
+  }
+  .resort-address,
+  .office-address {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: flex;
+    /* padding-top: 2rem; */
+    /* gap: 1rem; */
+    color: #fff;
+  }
+  .contact-address {
+    padding-left: 1rem;
+  }
+  .mail-main-container,
+  .contact-us-phone-main-container {
+    display: flex;
+    flex-direction: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* gap: 1rem; */
+    padding-top: 2rem;
+  }
+  .resort-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+  }
+  .office-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+  }
+  .mail-main-container {
+    display: flex;
+    text-align: start;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-us-phone-main-container {
+    display: flex;
+    text-align: start;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .con4-Heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .booknow {
+    margin: 4rem 0rem 0rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .booknow a {
+    text-decoration: underline;
+    /* color: #fff; */
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .booknow a:hover {
+    /* color: #fff; */
+  }
+}

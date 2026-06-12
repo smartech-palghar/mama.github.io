@@ -1,0 +1,615 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ************** sticky icons ****************/
+.sticky-icons {
+  position: relative;
+}
+.sticky-wtsap {
+  position: fixed;
+  bottom: 1rem;
+  right: 0.5rem;
+  z-index: 100;
+}
+.image-slider,
+.con11-Footer,
+.con12-copyright,
+.copyright,
+.con3-carousel,
+.navbar {
+  z-index: 3000;
+}
+/* ***************************** container 1 booking tab ************************************ */
+.Container1-booking-tab {
+  height: 40px;
+  color: #ffffff;
+  background-color: #28292b;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 2rem;
+}
+.phone-icon {
+  padding-right: 0.7rem;
+  color: #fff;
+}
+.mail-icon {
+  /* height: 1rem; */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #fff;
+}
+@media only screen and (max-width: 950px) {
+  .Container1-booking-tab {
+    padding-right: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    padding-right: 0rem;
+    width: 100vw;
+  }
+  .contact-tab-phone {
+    /* padding-left: -2rem; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0.7rem;
+  }
+  .contact-tab-phone span {
+    padding-left: 0.7rem;
+  }
+  .contact-tab-mail {
+    /* padding-left: -2rem; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 0.5rem;
+  }
+  .mail-icon {
+    padding-left: 0;
+    height: 1.8rem;
+    padding-bottom: 0rem;
+  }
+}
+/* ************************************ container 2 NavBar ******************************************** */
+.Navbar-Logo {
+  height: 70px;
+  width: 150px;
+  padding-left: 1rem;
+}
+
+.navbar {
+  background-color: #198754;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: sans-serif poppins;
+  padding: 0;
+  position: sticky;
+  top: 0;
+}
+
+.navbar-nav {
+  padding-left: 13rem;
+}
+
+.navbar-nav li {
+  padding-left: 2.5rem;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 950px) {
+  .navbar-nav {
+    padding-left: 0rem;
+    text-align: center;
+    height: 100vh;
+    /* position: fixed; */
+    overflow: hidden;
+  }
+  .navbar-nav li {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+/* **************************** container 11 footer *************************************** */
+.con11-Footer {
+  margin: 3rem 0rem 0rem 0rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  background-color: #28292b;
+  /* height: 60vh; */
+}
+
+.con11-section1 {
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 33%;
+  margin-right: 0rem;
+  /* position: absolute; */
+  /* left: 0; */
+  /* background-color: #28292b; */
+  color: #ffffff;
+}
+.con11-section2 {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 33%;
+  margin-top: 2rem;
+  /* position: absolute; */
+  /* background-color: #28292b; */
+  color: #ffffff;
+}
+.con11-section3 {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 33%;
+  margin-top: 2rem;
+  /* position: absolute; */
+  /* right: 0; */
+  /* background-color: #28292b; */
+  color: #ffffff;
+}
+
+.con11-logo {
+  /* width: 450px; */
+  /* height: 52px; */
+}
+/* ***************** Footer section 2 ************* */
+.con11-sec2-address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 400px;
+  margin-top: 2.5rem;
+}
+.con11-sec2-heading {
+  /* display: flex; */
+  /* align-items: flex-start; */
+  /* justify-content: flex-start; */
+  text-align: start;
+  width: 290px;
+}
+.con11-sec2-addrss-icon img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 1rem;
+}
+.con11-sec2-addrss-text {
+  padding: 0rem 1rem 0rem 1rem;
+}
+.con11-sec2-email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 400px;
+  margin-top: 1rem;
+}
+.con11-sec2-contact {
+  width: 400px;
+  margin-top: 2rem;
+}
+.con11-sec2-emailadress {
+  padding: 0.5rem 1rem 0rem 1rem;
+}
+.con11sec2-email-icon img {
+  width: 30px;
+  height: 30px;
+}
+.con11-sec2-contact-icon img {
+  width: 25px;
+  height: 25px;
+}
+.con11-sec2-contact-number {
+  padding: 0.5rem 1rem 0rem 1rem;
+}
+
+.con11-sec2-contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* ********** Section 3 ******* **********************/
+.con11-sec3-heading {
+  /* text-align: start; */
+  /* width: 230px; */
+}
+.con11-sec3-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 2rem; */
+  width: 400px;
+}
+.con11-sec3-links-container1 {
+  padding-right: 1rem;
+}
+.con11-sec3-links-container1 ul li {
+  padding-top: 1.5rem;
+  list-style: none;
+}
+.con11-sec3-links-container1 ul li a,
+.con11-sec3-links-container2 ul li a {
+  text-decoration: none;
+
+  color: #ffffff;
+}
+.con11-sec3-links-container2 {
+  padding-left: 1rem;
+}
+.con11-sec3-links-container2 ul li {
+  padding-top: 1.5rem;
+  list-style: none;
+}
+
+/* ****************** social media *********** */
+
+.con11-sec3-social-icons {
+  /* margin-top: 1.5rem; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.con11-sec3-socialmedia {
+  margin-top: 1.5rem;
+}
+.con11-sec3-socialmedia-heading {
+  padding-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.con11-fb-icon {
+  width: 29px;
+  height: 29px;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+}
+.con11-insta-icon {
+  width: 27px;
+  height: 27px;
+  margin-right: 1rem;
+}
+.con11-tweet-icon {
+  width: 29px;
+  height: 29px;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 950px) {
+  .con11-Footer {
+    margin: 3rem 0rem 0rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: #28292b;
+    /* height: 60vh; */
+  }
+  .con11-section1 {
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0rem;
+    /* position: absolute; */
+    /* left: 0; */
+    /* background-color: #28292b; */
+    color: #ffffff;
+  }
+  .con11-section2 {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+    /* position: absolute; */
+    /* background-color: #28292b; */
+    color: #ffffff;
+  }
+  .con11-sec2-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2.5rem;
+  }
+  .con11-sec2-email {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .con11-sec2-contact {
+    width: 100%;
+  }
+  .con11-section3 {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    /* position: absolute; */
+    /* right: 0; */
+    /* background-color: #28292b; */
+    color: #ffffff;
+  }
+  .con11-sec3-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+    width: 100%;
+  }
+  .con11-sec2-heading {
+    /* display: flex; */
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+    text-align: center;
+    width: 100%;
+  }
+  .con11-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+}
+/* *************************************** container 12 ***************************** */
+.con12-copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #ffffff;
+  height: 4rem;
+  border-top: 2px solid #e9edc9;
+  position: relative;
+}
+
+.con12-copyright a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 950px) {
+  .con12-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: #ffffff;
+    height: 4rem;
+  }
+}
+
+/* ********************************** container 3 ************************ */
+.con3-header {
+  /* background-color: #; */
+}
+.con3-header h1 {
+  font-size: 3.5rem;
+  color: #d9d9d9;
+  font-weight: 900;
+  padding: 5rem;
+}
+
+.con3-carousel {
+  background-image: url("./Photo/Contactus/normal-array/aboutus/about1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  transition: 0.3s;
+}
+.container3-tariff {
+  position: relative;
+}
+.con3-header {
+  background: linear-gradient(rgba(0, 0, 0, 0) #000);
+  position: absolute;
+  top: 13rem;
+  left: 10;
+  width: 100%;
+  padding: 4em 1em 2em 1em;
+  text-align: start;
+}
+
+.leftArrow {
+  width: 15px;
+  height: 15px;
+}
+.rightArrow {
+  width: 15px;
+  height: 15px;
+}
+.leftArrow,
+.rightArrow {
+  height: 2em;
+  width: 2em;
+  background-color: #fff;
+  padding: 0.5rem;
+  position: absolute;
+  top: 40%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.leftArrow:hover,
+.rightArrow:hover {
+  background: #a1c5a7;
+  color: #198754;
+}
+.leftArrow {
+  left: 1em;
+}
+.rightArrow {
+  right: 1em;
+}
+
+/*  class for javascript toggle */
+.image-fade {
+  animation: imgFade 0.5s ease-in-out;
+}
+
+@keyframes imgFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .con3-carousel {
+    height: 50vh;
+    background-image: url("./Photo/Contactus/normal-array/aboutus/about1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    transition: 0.3s;
+  }
+}
+/* ********************************** container4 about us****************** */
+.container5-aboutus {
+  margin: 7rem 5rem 5rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+.container5-image img {
+  object-fit: cover;
+}
+
+.container5-description {
+  padding-right: 3rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.container5-description h1 {
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.container5-para {
+  padding-bottom: 0.5rem;
+}
+.container5-btn {
+  padding-top: 1rem;
+}
+.container5-description a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 15px 40px;
+  background-color: #198754;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 950px) {
+  .container5-aboutus {
+    margin: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container5-image img {
+    object-fit: cover;
+    /* image-rendering: pixelated; */
+    width: 100%;
+  }
+  .container5-image {
+    /* margin-left: 1rem; */
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+  .container5-description {
+    margin-top: 2rem;
+    padding: 0rem;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+}
+
+/* ****************container 6 msg from cmd ************************* */
+.container6-aboutus {
+  margin: 2rem 5rem;
+  display: flex;
+}
+.con6-aboutus-description {
+  padding-left: 3rem;
+}
+
+.con6-aboutus-image {
+  border: 5px solid #28292b;
+}
+
+/* ************************** container 7 vison */
+
+.container7-about-us {
+  margin: 3rem 5rem 2rem 5rem;
+}
+
+@media only screen and (max-width: 950px) {
+  .container6-aboutus {
+    margin: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .con6-aboutus-description {
+    padding-left: 0rem;
+    margin-top: 1rem;
+  }
+  .con6-aboutus-image img {
+    object-fit: cover;
+    width: auto;
+    height: auto;
+  }
+  .container7-about-us {
+    margin: 2rem 1rem;
+  }
+}
